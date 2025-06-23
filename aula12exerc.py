@@ -1,8 +1,8 @@
 nome = 'Davi Gabriel'
 altura = 1.75
-peso = 60
-imc = peso / altura ** 2
+peso = 63
+imc = peso / (altura * altura)
 
-print(nome, 'tem', altura, 'de altura,',)
-print('pesa', peso, 'quilos e seu imc é',)
-print(imc)
+print(f'{nome} tem {altura}m de altura')
+print(f'Pesa {peso}kg')
+print(f'Possui um IMC de {imc:.2f}')
