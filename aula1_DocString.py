@@ -1,13 +1,13 @@
 """
 DocString
-E escrever o que eu
-quiser
+
+Serve para documentar o código, como se fosse um comentário, mas
+pode ser lido pelo Python e utilizado por ferramentas de documentação.
 
 
-asdfasdfd
 """
 
-''' Usar para escrever suas notas '''
+''' Usar para escrever suas notas (estudar, revisar, etc.)'''
 
 # Permite escrever um comentário
 print(123)  # Na frente
