@@ -1,9 +1,7 @@
-primeiro_valor = input('Digite um valor: ')
-segundo_valor = input('Digite outro valor: ')
+primeiro_valor = (input('Digite um valor: '))
+segundo_valor = (input('Digite outro valor: '))
 
-
-if primeiro_valor > segundo_valor:
-    print(f'O valor {primeiro_valor} é maior que {segundo_valor}.')
-
+if primeiro_valor >= segundo_valor:
+    print(f'O primeiro valor "{primeiro_valor}" é maior ou igual ao segundo valor "{segundo_valor}"')
 else:
-    print(f'O valor {segundo_valor} é maior que {primeiro_valor}.')
+    print(f'O segundo valor "{segundo_valor}" é maior que o primeiro valor "{primeiro_valor}"')
