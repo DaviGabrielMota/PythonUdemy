@@ -8,4 +8,6 @@ Obs.: a função len retorna a quantidade
 de caracteres da string
 """
 variavel = 'Olá mundo'
+print(variavel[0:9:1])
+print(len(variavel))
 print(variavel [::-1])
